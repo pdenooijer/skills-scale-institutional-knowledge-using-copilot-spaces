@@ -3,6 +3,8 @@
 ## Purpose
 Explain how to identify, manage, and communicate risks and dependencies.
 
+For any major or recurring risks, follow the [Risk Escalation Process](risk-escalation-process.md).
+
 ## Risk Register
 Maintain a simple table with:
 - ID

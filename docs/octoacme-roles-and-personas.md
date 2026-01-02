@@ -75,7 +75,70 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+## Business Analyst
 
+### Responsibilities:
+- Elicits, documents, and manages business and technical requirements from stakeholders.
+- Translates business needs into clear project objectives and tasks for the delivery team.
+- Facilitates workshops and ensures stakeholder alignment.
+- Works closely with the Product Owner to maintain the product backlog and define acceptance criteria.
+
+### Interactions:
+- Collaborates with stakeholders, Product Owner, and Project Manager for requirements gathering and prioritization.
+- Supports Developers and QA by providing clarification on requirements and scope.
+- Coordinates with the Technical Writer to ensure process and solution documentation is accurate and understandable.
+
+---
+
+## Change Manager
+
+### Responsibilities:
+- Owns and operates the process for all formal changes to project scope, schedule, or resources.
+- Assesses the impact of changes, coordinates change review meetings, and maintains the change log.
+- Notifies stakeholders of change decisions and ensures smooth adoption of approved changes.
+
+### Interactions:
+- Works with Project Manager to assess change impact on project timelines and deliverables.
+- Engages with Business Analyst and Product Owner to review the business impact of changes.
+- Communicates changes to all relevant team members and ensures transition plans are documented and executed.
+
+---
+
+## Release Coordinator
+
+### Responsibilities:
+- Plans, schedules, and oversees the deployment and release process.
+- Ensures all release criteria (quality, documentation, approvals) are met before deployment.
+- Coordinates release activities across development, QA, operations, and business teams.
+- Conducts release retrospectives to capture lessons learned.
+
+### Interactions:
+- Works with QA Lead and Developers to ensure build/package readiness.
+- Coordinates with Project Manager for release communications.
+- Engages with Technical Writer for preparation and dissemination of release notes and documentation.
+- Notifies stakeholders of planned release windows and status updates.
+
+---
+
+## Technical Writer
+
+### Responsibilities:
+- Authors and curates technical and process documentation for the project.
+- Ensures all documents (requirements, user guides, process maps, release notes) are accurate, accessible, and up-to-date.
+- Collaborates with subject matter experts to maintain source-of-truth content.
+
+### Interactions:
+- Works with Business Analyst, QA Lead, and Developers to gather source material for documentation.
+- Supports Change Manager and Release Coordinator by documenting changes and release notes.
+- Coordinates with Project Manager to address documentation gaps surfaced in retrospectives or audits.
+
+---
+
+## Example Collaboration Scenarios
+
+- **Requirement Clarification:** Business Analyst works with Product Owner and Developers to clarify ambiguous user stories before planning.
+- **Change Request:** Change Manager evaluates the impact of a scope change with the Project Manager and communicates the outcome to all teams.
+- **Release Preparation:** Release Coordinator confirms with QA Lead that all tests passed and with Technical Writer that release notes are updated before deployment.
+- **Cross-Role Documentation:** Technical Writer updates process docs based on team feedback in retrospectives and coordinates with all roles to verify content accuracy.
+
+> These additions further support project transparency, accountability, and ensure successful handoffs across roles and milestones.
