@@ -12,6 +12,7 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
 - Release notes drafted
+- Complete [Release Readiness Checklist](release-readiness-checklist.md)
 - Rollback / mitigation plan documented
 - Smoke tests prepared
 
